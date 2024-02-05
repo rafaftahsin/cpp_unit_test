@@ -9,7 +9,7 @@ find_package(Boost 1.84.0)
 include_directories(${Boost_INCLUDE_DIR})
 
 add_executable(cpp_unit_test main.cpp
-        test.cpp
+        boost_test.cpp
         adder.cpp
         adder.h
 )

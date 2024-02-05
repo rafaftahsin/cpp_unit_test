@@ -7,7 +7,6 @@
 #include "adder.h"
 
 BOOST_AUTO_TEST_SUITE(test_suite_1)
-
     BOOST_AUTO_TEST_CASE(test_case_1)
     {
         int a = 5;
